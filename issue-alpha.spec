@@ -6,13 +6,15 @@ Release:	1
 License:	GPL
 Group:		Base
 Buildarch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 Obsoletes:	issue
 Obsoletes:	issue-fancy
 Obsoletes:	issue-logo
 Obsoletes:	issue-pure
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	redhat-release
+Obsoletes:	mandrake-release
 
 %description
 PLD Linux release file with virtual keyboard. Can be used to some
