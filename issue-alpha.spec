@@ -36,7 +36,7 @@ cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
 |  ~  !  "  #  $  %  ^  &  *  (  )  _  +          |
 | ´ \`  1  2  3  4  5  6  7  8  9  0  -  =         |
 |                                                :'
-|                                {  }            ; 
+|                                {  }            ;
 |  Qq Ww Ee Rr Tt Yy Uu Ii Oo Pp  [  ]          ;
 |                               :  @  ~       .;
 |    Aa Ss Dd Ff Gg Hh Jj Kk Ll  ;  '  #     :;
