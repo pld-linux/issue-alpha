@@ -13,9 +13,10 @@ Group:		Base
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 Obsoletes:	issue
-Obsoletes:	issue-fancy
 Obsoletes:	issue-logo
 Obsoletes:	issue-pure
+Obsoletes:	issue-nice
+Obsoletes:	issue-fancy
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 BuildArch:	noarch
