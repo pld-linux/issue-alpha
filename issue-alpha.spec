@@ -31,6 +31,8 @@ Wersja Linuksa PLD z wirtualn± klawiatur±. Mo¿e byæ u¿yta do manewrów
 za pomoc± gpma w systemach bez sprawnej klawiatury, b±d¼ jako poprawa
 bezpieczeñstwa logowania dla paranoików (przeciwdzia³a keyloggerom).
 
+%prep
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
