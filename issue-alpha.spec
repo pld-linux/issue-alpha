@@ -1,7 +1,12 @@
+
+%define	distname	Ra
+%define	distversion	1.1
+%define	distrelease	"%{distversion} PLD Linux (%{distname})"
+
 Summary:	PLD Linux release file with virtual keyboard
 Summary(pl):	Wersja Linuksa PLD z wirtualn± klawiatur±
 Name:		issue-alpha
-Version:	1.1
+Version:	%{distversion}
 Release:	1
 License:	GPL
 Group:		Base
@@ -31,7 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
-.-------------< PLD Linux 1.1 (Ra) >--------------.
+.-------------< PLD Linux %{distversion} (%{distname}) >--------------.
 |                                                 |
 |  ~  !  "  #  $  %  ^  &  *  (  )  _  +          |
 | ´ \`  1  2  3  4  5  6  7  8  9  0  -  =         |
@@ -50,7 +55,7 @@ EOF
 cat $RPM_BUILD_ROOT%{_sysconfdir}/issue.net > $RPM_BUILD_ROOT%{_sysconfdir}/issue
 echo -ne "\l " >> $RPM_BUILD_ROOT%{_sysconfdir}/issue
 
-echo "1.1 PLD Linux (Ra)" > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
+echo %{distrelease} > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
 
 %clean
 rm -rf $RPM_BUILD_ROOT
