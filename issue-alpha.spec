@@ -4,7 +4,7 @@
 %define	distrelease	"%{distversion} PLD Linux (%{distname})"
 
 Summary:	PLD Linux release file with virtual keyboard
-Summary(pl):	Wersja Linuksa PLD z wirtualn± klawiatur±
+Summary(pl.UTF-8):   Wersja Linuksa PLD z wirtualnÄ… klawiaturÄ…
 Name:		issue-alpha
 Version:	%{distversion}
 Release:	1
@@ -27,10 +27,10 @@ PLD Linux release file with virtual keyboard. Can be used to some
 hacks with gpm on systems w/o available keyboard or as paranoic
 security login solution (anti keyloggers).
 
-%description -l pl
-Wersja Linuksa PLD z wirtualn± klawiatur±. Mo¿e byæ u¿yta do manewrów
-za pomoc± gpma w systemach bez sprawnej klawiatury, b±d¼ jako poprawa
-bezpieczeñstwa logowania dla paranoików (przeciwdzia³a keyloggerom).
+%description -l pl.UTF-8
+Wersja Linuksa PLD z wirtualnÄ… klawiaturÄ…. MoÅ¼e byÄ‡ uÅ¼yta do manewrÃ³w
+za pomocÄ… gpma w systemach bez sprawnej klawiatury, bÄ…dÅº jako poprawa
+bezpieczeÅ„stwa logowania dla paranoikÃ³w (przeciwdziaÅ‚a keyloggerom).
 
 %prep
 
@@ -42,7 +42,7 @@ cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
 .-------------< PLD Linux %{distversion} (%{distname}) >--------------.
 |                                                 |
 |  ~  !  "  #  $  %  ^  &  *  (  )  _  +          |
-| ´ \`  1  2  3  4  5  6  7  8  9  0  -  =         |
+| Â´ \`  1  2  3  4  5  6  7  8  9  0  -  =         |
 |                                                :'
 |                                {  }            ;
 |  Qq Ww Ee Rr Tt Yy Uu Ii Oo Pp  [  ]          ;
@@ -51,7 +51,7 @@ cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
 :   |                       <  >  ?        .;'
 \`:   \\\\ Zz Xx Cc Vv Bb Nn Mm  ,  .  /   ,.;'"
   \`..                           ,..;:'"
-     \`-------------------------´
+     \`-------------------------Â´
 
 EOF
 
