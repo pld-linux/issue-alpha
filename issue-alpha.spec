@@ -42,7 +42,7 @@ cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
 .-------------< PLD Linux %{distversion} (%{distname}) >--------------.
 |                                                 |
 |  ~  !  "  #  $  %  ^  &  *  (  )  _  +          |
-| ´ \`  1  2  3  4  5  6  7  8  9  0  -  =         |
+| ' \`  1  2  3  4  5  6  7  8  9  0  -  =         |
 |                                                :'
 |                                {  }            ;
 |  Qq Ww Ee Rr Tt Yy Uu Ii Oo Pp  [  ]          ;
@@ -51,7 +51,7 @@ cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
 :   |                       <  >  ?        .;'
 \`:   \\\\ Zz Xx Cc Vv Bb Nn Mm  ,  .  /   ,.;'"
   \`..                           ,..;:'"
-     \`-------------------------´
+     \`-------------------------'
 
 EOF
 
