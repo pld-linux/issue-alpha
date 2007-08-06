@@ -7,16 +7,10 @@ Summary:	PLD Linux release file with virtual keyboard
 Summary(pl.UTF-8):	Wersja Linuksa PLD z wirtualną klawiaturą
 Name:		issue-alpha
 Version:	%{distversion}
-Release:	1
+Release:	2
 License:	GPL
 Group:		Base
-Obsoletes:	redhat-release
-Obsoletes:	mandrake-release
-Obsoletes:	issue
-Obsoletes:	issue-logo
-Obsoletes:	issue-pure
-Obsoletes:	issue-nice
-Obsoletes:	issue-fancy
+Provides:	issue
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 BuildArch:	noarch
