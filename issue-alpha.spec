@@ -1,5 +1,5 @@
-%define	distnamever	%(. /etc/os-release && echo $VERSION)
-%define	distversion	%(. /etc/os-release && echo ${VERSION_ID:-0})
+%define	distnamever	%(. /etc/os-release 2>/dev/null ; echo $VERSION)
+%define	distversion	%(. /etc/os-release 2>/dev/null ; echo ${VERSION_ID:-0})
 
 Summary:	PLD Linux release file with virtual keyboard
 Summary(pl.UTF-8):	Wersja Linuksa PLD z wirtualną klawiaturą
