@@ -1,10 +1,9 @@
-%define	distnamever	%(. /etc/os-release 2>/dev/null ; echo $VERSION)
-%define	distversion	%([ -e /etc/os-release ] && . /etc/os-release 2>/dev/null ; echo ${VERSION_ID:-0})
+%define		distversion	%(. /etc/os-release 2>/dev/null ; echo $VERSION)
 
 Summary:	PLD Linux release file with virtual keyboard
 Summary(pl.UTF-8):	Wersja Linuksa PLD z wirtualną klawiaturą
 Name:		issue-alpha
-Version:	%{distversion}
+Version:	3.0
 Release:	2
 License:	GPL
 Group:		Base
@@ -35,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
-.-------------< PLD Linux %{distnamever} >--------------.
+.-------------< PLD Linux %{distversion} >--------------.
 |                                                 |
 |  ~  !  "  #  $  %  ^  &  *  (  )  _  +          |
 | ' \`  1  2  3  4  5  6  7  8  9  0  -  =         |
