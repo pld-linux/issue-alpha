@@ -4,7 +4,7 @@ Summary:	PLD Linux release file with virtual keyboard
 Summary(pl.UTF-8):	Wersja Linuksa PLD z wirtualną klawiaturą
 Name:		issue-alpha
 Version:	3.0
-Release:	25
+Release:	26
 License:	GPL
 Group:		Base
 BuildRequires:	pld-release >= 3.0
